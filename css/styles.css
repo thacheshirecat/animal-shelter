@@ -26,6 +26,8 @@
 }
 
 body {
+  background-image: url("../img/field.jpg");
+  background-repeat: no-repeat;
   text-align: center;
   background-color: lightblue;
 }
