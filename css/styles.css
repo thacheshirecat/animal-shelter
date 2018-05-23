@@ -9,7 +9,7 @@
 
 .column p {
   text-align: center;
-  color: green;
+  color: brown;
   font-size: 35px;
 }
 
@@ -58,11 +58,27 @@ h2 {
 
 @media screen and (max-width: 800px) {
     .column{
-      float: left;
       width: 200px;
       margin: 1px;
       padding: 1px;
-      text-align: center;
-      border: 1px solid purple;
+        }
+        .column p {
+          font-size: 18px;
+        }
+        .column ul {
+          font-size: 15px;
+        }
+      }
+
+
+@media screen and (max-width: 400px) {
+    .column{
+      width: 100px;
+        }
+        .column p {
+          font-size: 9px;
+        }
+        .column ul {
+          font-size: 7px;
         }
       }
