@@ -1,3 +1,8 @@
+.column {
+text-align: center;
+border: 1px solid purple;
+}
+
 .column p {
   text-align: center;
   color: brown;
@@ -53,8 +58,6 @@ h2 {
     width: 425px;
     margin: 5px;
     padding: 5px;
-    text-align: center;
-    border: 1px solid purple;
   }
 }
 
@@ -64,8 +67,6 @@ h2 {
     width: 200px;
     margin: 1px;
     padding: 1px;
-    text-align: center;
-    border: 1px solid purple;
   }
   .column p {
     font-size: 18px;
@@ -74,12 +75,9 @@ h2 {
     font-size: 15px;
   }
 }
-
-
-@media screen and (max-width: 500px) {
+/*@media screen and (max-width: 500px) {
   .column{
-    /*width: 200px;*/
     text-align: center;
     border: 1px solid purple;
   }
-}
+}*/
