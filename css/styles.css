@@ -1,8 +1,8 @@
 .column{
   float: left;
-  width: 29%;
-  margin: 1%;
-  padding: 1%;
+  width: 425px;
+  margin: 5px;
+  padding: 5px;
   text-align: center;
   border: 1px solid purple;
 }
@@ -17,14 +17,39 @@
   font-style: italic;
 }
 
+.column a:link {
+  color: green;
+}
+
+.column a:visited {
+  color: orange;
+}
+
 body {
   text-align: center;
+  background-color: lightblue;
 }
 
 img {
-  width: 80%;
+  width: 50%;
 }
 
 ul {
   display: inline-block;
+}
+
+.title {
+    clear: left;
+    display:block;
+    font-size: 35px;
+}
+
+p {
+  text-align: left;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 35px;
 }
