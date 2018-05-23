@@ -1,11 +1,11 @@
 .column {
-text-align: center;
-border: 1px solid purple;
+  border: 1px solid purple;
+  color: brown;
 }
 
 .column p {
   text-align: center;
-  color: brown;
+  color: white;
   font-size: 35px;
 }
 
@@ -37,9 +37,9 @@ ul {
 }
 
 .title {
-    clear: left;
-    display:block;
-    font-size: 35px;
+  clear: left;
+  display:block;
+  font-size: 35px;
 }
 
 p {
@@ -76,8 +76,8 @@ h2 {
   }
 }
 /*@media screen and (max-width: 500px) {
-  .column{
-    text-align: center;
-    border: 1px solid purple;
-  }
+.column{
+text-align: center;
+border: 1px solid purple;
+}
 }*/
